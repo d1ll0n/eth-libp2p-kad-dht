@@ -5,7 +5,7 @@ const varint = require('varint')
 const each = require('async/each')
 const pull = require('pull-stream')
 const CID = require('cids')
-const PeerId = require('peer-id')
+const PeerId = require('eth-peer-id')
 const Key = require('interface-datastore').Key
 
 const c = require('./constants')

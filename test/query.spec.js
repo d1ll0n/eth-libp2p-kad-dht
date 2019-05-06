@@ -5,7 +5,7 @@ const chai = require('chai')
 chai.use(require('dirty-chai'))
 const expect = chai.expect
 const PeerBook = require('peer-book')
-const Switch = require('libp2p-switch')
+const Switch = require('eth-libp2p-switch')
 const TCP = require('libp2p-tcp')
 const Mplex = require('libp2p-mplex')
 const setImmediate = require('async/setImmediate')

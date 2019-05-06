@@ -1,11 +1,11 @@
 'use strict'
 
-const PeerId = require('peer-id')
+const PeerId = require('eth-peer-id')
 const libp2pRecord = require('libp2p-record')
 const waterfall = require('async/waterfall')
 const each = require('async/each')
 const timeout = require('async/timeout')
-const PeerInfo = require('peer-info')
+const PeerInfo = require('eth-peer-info')
 
 const errcode = require('err-code')
 

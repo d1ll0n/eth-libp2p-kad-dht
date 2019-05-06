@@ -4,7 +4,7 @@
 const chai = require('chai')
 chai.use(require('dirty-chai'))
 const expect = chai.expect
-const PeerId = require('peer-id')
+const PeerId = require('eth-peer-id')
 const series = require('async/series')
 
 const kadUtils = require('../src/utils')

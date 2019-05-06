@@ -9,7 +9,7 @@ const distance = require('xor-distance')
 const map = require('async/map')
 const Record = require('libp2p-record').Record
 const setImmediate = require('async/setImmediate')
-const PeerId = require('peer-id')
+const PeerId = require('eth-peer-id')
 
 /**
  * Creates a DHT ID by hashing a given buffer.

@@ -9,7 +9,7 @@ const pull = require('pull-stream')
 const lp = require('pull-length-prefixed')
 const series = require('async/series')
 const PeerBook = require('peer-book')
-const Switch = require('libp2p-switch')
+const Switch = require('eth-libp2p-switch')
 const TCP = require('libp2p-tcp')
 const Mplex = require('libp2p-mplex')
 

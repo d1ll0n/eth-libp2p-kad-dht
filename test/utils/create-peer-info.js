@@ -1,8 +1,8 @@
 'use strict'
 
 const times = require('async/times')
-const PeerId = require('peer-id')
-const PeerInfo = require('peer-info')
+const PeerId = require('eth-peer-id')
+const PeerInfo = require('eth-peer-info')
 
 // Creates multiple PeerInfos
 function createPeerInfo (n, callback) {

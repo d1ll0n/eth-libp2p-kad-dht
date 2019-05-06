@@ -14,10 +14,10 @@ const retry = require('async/retry')
 const each = require('async/each')
 const waterfall = require('async/waterfall')
 const Record = require('libp2p-record').Record
-const PeerId = require('peer-id')
-const PeerInfo = require('peer-info')
+const PeerId = require('eth-peer-id')
+const PeerInfo = require('eth-peer-info')
 const PeerBook = require('peer-book')
-const Switch = require('libp2p-switch')
+const Switch = require('eth-libp2p-switch')
 const TCP = require('libp2p-tcp')
 const Mplex = require('libp2p-mplex')
 
